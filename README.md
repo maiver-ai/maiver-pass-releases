@@ -28,3 +28,5 @@ macOS 安装提醒：此发布版 DMG 文件目前未经签名。首次运行时
 只下载 DMG 时，执行 `shasum -a 256 MAIVER-PASS-0.6.1-macos-arm64.dmg`，与 SHA256SUMS 对应行比较。全部附件下载后可执行 `shasum -a 256 -c SHA256SUMS`。
 
 更新签名公钥见 [updater.pub](updater.pub)。当前为公开预览版，尚无 Apple Developer ID 签名或 Apple 公证，更新签名不能替代 Apple 公证。分发仓库标签仅标识二进制版本，不是业务源码的完整快照。
+
+[macOS 提示：“应用程序”已损坏解决方法](https://sysin.org/blog/macos-if-crashes-when-opening/)
